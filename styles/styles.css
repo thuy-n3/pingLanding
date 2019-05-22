@@ -1,0 +1,124 @@
+body{
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+  font-weight: 300;
+}
+
+.container{
+  /* border: solid green 2px; */
+  text-align: center;
+}
+
+.title{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.dot{
+  color: hsl(223, 87%, 63%);
+}
+
+.bigText{
+  margin-top: 25px;
+  font-size: 38px;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+  color:hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+.soon{
+  font-weight: 700;
+  color: black;
+}
+
+.subText{
+  font-size: 16px;
+  font-weight: 200;
+  color:hsl(0, 0%, 59%);
+}
+
+.buttonContainer{
+  margin-top: 30px;
+}
+
+.emailInput{
+  padding: 16px;
+  border-radius: 40px;
+  width: 28%; 
+  margin-right: 5px;
+  font-size: 15px;
+  border:lightgrey solid 1px;
+}
+
+input::placeholder {
+  color:lightgrey;
+  padding-left: 10px;
+}
+
+.submitButton{
+  padding: 16px;
+  border-radius: 40px;
+  text-align: center;
+  width: 14%;
+  margin-left: 5px;
+  font-size: 15px;
+  background-color:hsl(223, 87%, 63%);
+  color: white;
+}
+
+#dashboardImg{
+  width: 45%;
+  margin-top: 30px;
+  padding-top: 30px;
+  /* margin-bottom: 30px; */
+  padding-bottom: 40px;
+}
+
+.socialContainer{
+  margin-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  border: solid 1px lightgrey;
+}
+
+a{
+  color: lightblue;
+  display: table-cell;
+  vertical-align: middle; 
+  text-align: center;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;   
+  color: #4F7DF3;
+}
+
+a:hover, a:active {
+  /* color: lightsalmon; */
+  text-decoration: none;
+  background-color:  #4F7DF3;
+  color: white;
+  border-radius: 50%;
+}
+
+.icon-background{
+  color: transparent;
+}
+
+.copyrightTxt{
+  font-size: 10px;
+  color: lightgrey;
+  padding-bottom: 30px;
+}
