@@ -122,3 +122,125 @@ a:hover, a:active {
   color: lightgrey;
   padding-bottom: 30px;
 }
+
+
+@media (max-width:1440px){
+
+}
+
+@media (min-width: 375px){
+
+  body{
+   text-align: center;
+  }
+
+  .bigText{
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+  color:hsl(0, 0%, 59%);
+  font-weight: 200;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+  /* .soon{
+  font-weight: 700;
+  color: black;
+  } */
+
+.subText{
+  font-size: 15px;
+  font-weight: 200;
+  color:hsl(0, 0%, 59%);
+}
+
+.buttonContainer{
+  margin-top: 30px;
+  
+}
+
+.emailInput{
+  /* padding: 16px; */
+  border-radius: 40px;
+  /* width: 250px;  */
+  width:50%;
+  margin-bottom: 10px;
+  /* margin-right: 5px; */
+  font-size: 15px;
+  border:lightgrey solid 1px;
+  /* display: block; */
+}
+
+input::placeholder {
+  color:lightgrey;
+  /* padding-left: 10px; */
+}
+
+.submitButton{
+  /* padding: 16px; */
+  border-radius: 40px;
+  text-align: center;
+  width: 55%;
+  /* width: 295px; */
+  margin-bottom: 10px;
+  /* margin-left: 5px; */
+  font-size: 15px;
+  background-color:hsl(223, 87%, 63%);
+  color: white;
+}
+
+#dashboardImg{
+  width: 80%;
+  margin-top: 30px;
+  padding-top: 30px;
+  /* margin-bottom: 30px; */
+  padding-bottom: 40px;
+}
+
+.socialContainer{
+  margin-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  border: solid 1px lightgrey;
+}
+
+a{
+  color: lightblue;
+  display: table-cell;
+  vertical-align: middle; 
+  text-align: center;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;   
+  color: #4F7DF3;
+}
+
+a:hover, a:active {
+  /* color: lightsalmon; */
+  text-decoration: none;
+  background-color:  #4F7DF3;
+  color: white;
+  border-radius: 50%;
+}
+
+.icon-background{
+  color: transparent;
+}
+
+.copyrightTxt{
+  font-size: 10px;
+  color: lightgrey;
+  padding-bottom: 30px;
+}
+
+}
